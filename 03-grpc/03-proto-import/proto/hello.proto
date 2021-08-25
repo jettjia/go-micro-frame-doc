@@ -1,0 +1,17 @@
+syntax = "proto3";
+option go_package = ".;proto";
+import "base.proto";
+
+service Greeter{
+    rpc SayHello(HelloRequest) returns (HelloReply){}
+    rpc Ping(Empty) returns(Pong){}
+}
+
+message HelloRequest{
+    string name =1;
+    repeated int32 id = 2;
+}
+
+message HelloReply{
+    string message = 1;
+}

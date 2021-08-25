@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/go-micro-module-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-gorm/01-crud/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-gorm/01-crud/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-gorm/01-crud/model/User.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-gorm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch04/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch05/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch06/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch06/proto/user.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch06/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch07/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch08/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/defaults/goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/defaults/index.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/goods/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/users/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="E:/dev/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1xCuvCA7STRDDxNrmNRrjtmBH3A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm\01-crud" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build go-micro-module/02-gin/ch06">
+    <configuration name="go build go-micro-module/01-gorm/01-crud" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/01-gorm/01-crud/main.go" />
+      <package value="go-micro-module/01-gorm/01-crud" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-module/01-gorm/01-crud/01-create" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/01-gorm/01-crud/01-create/main.go" />
+      <package value="go-micro-module/01-gorm/01-crud/01-create" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-module/02-gin/ch01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/02-gin/ch01/main.go" />
+      <package value="go-micro-module/02-gin/ch01" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-module/02-gin/ch06" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/02-gin/ch06/main.go" />
+      <package value="go-micro-module/02-gin/ch06" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go-micro-module/02-gin/ch06" />
+        <item itemvalue="Go Build.go build go-micro-module/02-gin/ch01" />
+        <item itemvalue="Go Build.go build go-micro-module/01-gorm/01-crud" />
+        <item itemvalue="Go Build.go build go-micro-module/01-gorm/01-crud/01-create" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io,direct</proxy>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option go_package = ".;proto";
+
+message Empty {
+    string name = 1;
+}
+
+message Pong {
+    string name = 1;
+}
