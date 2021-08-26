@@ -2,50 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-zap/initialize/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-zap/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/config-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/config-prod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/global/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/initialize/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/initialize/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-viper/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/api/user/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/config-debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/config-pro.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/forms/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/global/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/global/response/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/srv_conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/zap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/middlewares/cors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/proto/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/utils/addr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul-discovery/utils/register/consul/register.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/config-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/config-prod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/global/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/handler/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/handler/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/initialize/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/initialize/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/initialize/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/tests/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/utils/addr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-consul/utils/register/consul/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/api/user/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/config-debug.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/config-pro.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/forms/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/global/global.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/global/response/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/srv_conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/zap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/middlewares/cors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/proto/user.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/proto/user.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/router/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/utils/addr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-consul-discovery/utils/register/consul/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-nacos/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-grpc-lb/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-grpc-lb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-grpc-lb/initialize/srv_conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-es/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
@@ -111,16 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-micro-module/06-consul-discovery">
-    <configuration name="go build go-micro-module/04-zap" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-micro-module-example" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/04-zap/main.go" />
-      <package value="go-micro-module/04-zap" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build go-micro-module/08-nacos/01-golang-nacos-api">
     <configuration name="go build go-micro-module/05-viper" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
@@ -157,13 +131,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-micro-module/08-nacos/01-golang-nacos-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" />
+      <package value="go-micro-module/08-nacos/01-golang-nacos-api" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-micro-module/08-nacos/01-golang-nacos-api" />
         <item itemvalue="Go Build.go build go-micro-module/06-consul-discovery" />
         <item itemvalue="Go Build.go build go-micro-module/06-consul/tests" />
         <item itemvalue="Go Build.go build go-micro-module/06-consul" />
         <item itemvalue="Go Build.go build go-micro-module/05-viper" />
-        <item itemvalue="Go Build.go build go-micro-module/04-zap" />
       </list>
     </recent_temporary>
   </component>

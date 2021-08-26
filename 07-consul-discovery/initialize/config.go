@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/06-consul-discovery/global"
+	"go-micro-module/07-consul-discovery/global"
 )
 
 func GetEnvInfo(env string) bool {
@@ -17,9 +17,9 @@ func GetEnvInfo(env string) bool {
 func InitConfig(){
 	debug := GetEnvInfo("MXSHOP_DEBUG")
 	configFilePrefix := "config"
-	configFileName := fmt.Sprintf("06-consul-discovery/%s-pro.yaml", configFilePrefix)
+	configFileName := fmt.Sprintf("07-consul-discovery/%s-pro.yaml", configFilePrefix)
 	if debug {
-		configFileName = fmt.Sprintf("06-consul-discovery/%s-debug.yaml", configFilePrefix)
+		configFileName = fmt.Sprintf("07-consul-discovery/%s-debug.yaml", configFilePrefix)
 	}
 
 	v := viper.New()

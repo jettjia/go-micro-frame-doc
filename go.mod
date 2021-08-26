@@ -15,6 +15,7 @@ require (
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mattn/go-isatty v0.0.13 // indirect
 	github.com/mbobakov/grpc-consul-resolver v1.4.4
+	github.com/nacos-group/nacos-sdk-go v1.0.8
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
 	go.uber.org/zap v1.19.0

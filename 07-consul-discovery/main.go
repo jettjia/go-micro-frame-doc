@@ -12,10 +12,10 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"go.uber.org/zap"
 
-	"go-micro-module/06-consul-discovery/global"
-	"go-micro-module/06-consul-discovery/initialize"
-	"go-micro-module/06-consul-discovery/utils"
-	"go-micro-module/06-consul-discovery/utils/register/consul"
+	"go-micro-module/07-consul-discovery/global"
+	"go-micro-module/07-consul-discovery/initialize"
+	"go-micro-module/07-consul-discovery/utils"
+	"go-micro-module/07-consul-discovery/utils/register/consul"
 )
 
 func main() {

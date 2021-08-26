@@ -1,0 +1,24 @@
+{
+  "name": "user-web",
+  "port": 8021,
+  "user_srv": {
+    "host": "10.4.7.71",
+    "port": 50051,
+    "name": "user-srv"
+  },
+  "jwt": {
+    "key": "wghwoe5729%%@#2dwow!woki"
+  },
+  "sms": {
+    "key": "this is ali key",
+    "secrect": "this is ali secrect"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "consul": {
+    "host": "10.4.7.71",
+    "port": 8500
+  }
+}
