@@ -1,0 +1,24 @@
+name: 'user-web'
+host: '10.4.7.71'
+port: 8021
+tags:
+  - 'imooc'
+  - 'user'
+  - 'web'
+
+env:
+  'dev'
+
+
+user_srv:
+  host: '10.4.7.71'
+  port: 50051
+  name: 'user-srv'
+
+redis:
+  host: '127.0.0.1'
+  port: 6379
+
+consul:
+  host: '10.4.7.71'
+  port: 8500

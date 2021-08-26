@@ -2,35 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go-micro-module-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-gorm/01-crud/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-gorm/01-crud/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-gorm/01-crud/model/User.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-gorm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch03/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch04/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch05/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch06/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch06/proto/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch06/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch07/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch08/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/defaults/goods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/defaults/index.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/goods/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-gin/ch09/templates/users/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-zap/initialize/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-zap/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/config-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/config-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/global/global.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/initialize/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/initialize/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-viper/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/api/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/config-debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/config-pro.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/forms/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/global/global.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/global/response/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/srv_conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/initialize/zap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/middlewares/cors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/proto/user.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/utils/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul-discovery/utils/register/consul/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/config-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/config-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/global/global.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/handler/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/handler/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/initialize/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/initialize/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/initialize/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/tests/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/utils/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-consul/utils/register/consul/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,16 +77,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08-grpc-lb" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\08-grpc-lb" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul-discovery\proto" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\05-viper\initialize" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm\01-crud" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example" />
@@ -88,49 +111,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-micro-module/02-gin/ch06">
-    <configuration name="go build go-micro-module/01-gorm/01-crud" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go-micro-module/06-consul-discovery">
+    <configuration name="go build go-micro-module/04-zap" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/01-gorm/01-crud/main.go" />
-      <package value="go-micro-module/01-gorm/01-crud" />
+      <filePath value="$PROJECT_DIR$/04-zap/main.go" />
+      <package value="go-micro-module/04-zap" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/01-gorm/01-crud/01-create" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/05-viper" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/01-gorm/01-crud/01-create/main.go" />
-      <package value="go-micro-module/01-gorm/01-crud/01-create" />
+      <filePath value="$PROJECT_DIR$/05-viper/main.go" />
+      <package value="go-micro-module/05-viper" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/02-gin/ch01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/06-consul-discovery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/02-gin/ch01/main.go" />
-      <package value="go-micro-module/02-gin/ch01" />
+      <filePath value="$PROJECT_DIR$/06-consul-discovery/main.go" />
+      <package value="go-micro-module/06-consul-discovery" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/02-gin/ch06" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/06-consul" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/02-gin/ch06/main.go" />
-      <package value="go-micro-module/02-gin/ch06" />
+      <filePath value="$PROJECT_DIR$/06-consul/main.go" />
+      <package value="go-micro-module/06-consul" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-module/06-consul/tests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/06-consul/tests/user.go" />
+      <package value="go-micro-module/06-consul/tests" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go-micro-module/02-gin/ch06" />
-        <item itemvalue="Go Build.go build go-micro-module/02-gin/ch01" />
-        <item itemvalue="Go Build.go build go-micro-module/01-gorm/01-crud" />
-        <item itemvalue="Go Build.go build go-micro-module/01-gorm/01-crud/01-create" />
+        <item itemvalue="Go Build.go build go-micro-module/06-consul-discovery" />
+        <item itemvalue="Go Build.go build go-micro-module/06-consul/tests" />
+        <item itemvalue="Go Build.go build go-micro-module/06-consul" />
+        <item itemvalue="Go Build.go build go-micro-module/05-viper" />
+        <item itemvalue="Go Build.go build go-micro-module/04-zap" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +175,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
