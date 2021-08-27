@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config-prod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/global/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/handler/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/handler/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/proto/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/tests/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/utils/addr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/utils/register/consul/register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-nacos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-dev-local.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-web.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

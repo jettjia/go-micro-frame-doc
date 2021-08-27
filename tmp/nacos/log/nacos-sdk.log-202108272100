@@ -1,0 +1,59 @@
+2021-08-27T21:30:12.914+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro363ad9630e009a9fc4960a4e30472a1ae16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 Long-Pulling-Timeout-No-Hangup:true accessKey: secretKey:] 
+
+2021-08-27T21:30:12.929+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:30:12.940+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro363ad9630e009a9fc4960a4e30472a1ae16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:30:21.877+0800	[34mINFO[0m	[client.ListenConfig] config changed:user-srv.json%02pro%02e16c905e-bd10-4f62-98cb-acc78d967b59%01
+
+2021-08-27T21:30:21.909+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:30:51.416+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:30:51.428+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:31:20.932+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:31:20.943+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:31:50.452+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:31:50.463+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:32:19.967+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:32:19.978+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:32:49.487+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:32:49.498+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:33:51.287+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro363ad9630e009a9fc4960a4e30472a1ae16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 Long-Pulling-Timeout-No-Hangup:true accessKey: secretKey:] 
+
+2021-08-27T21:33:51.299+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:33:51.309+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro363ad9630e009a9fc4960a4e30472a1ae16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:35:03.870+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro363ad9630e009a9fc4960a4e30472a1ae16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 Long-Pulling-Timeout-No-Hangup:true accessKey: secretKey:] 
+
+2021-08-27T21:35:03.879+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:35:03.890+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro363ad9630e009a9fc4960a4e30472a1ae16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:35:25.269+0800	[34mINFO[0m	[client.ListenConfig] config changed:user-srv.json%02pro%02e16c905e-bd10-4f62-98cb-acc78d967b59%01
+
+2021-08-27T21:35:25.294+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:35:54.799+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:35:54.810+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:36:24.316+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:36:24.329+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:36:53.838+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:36:53.851+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:37:23.355+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:37:23.366+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:37:52.874+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:37:52.886+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:38:22.395+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:38:22.405+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
+2021-08-27T21:38:51.910+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T21:38:51.920+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro38e114b8ed90556c4c6c2d634c2e04a3e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+

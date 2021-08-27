@@ -14,17 +14,17 @@ type ConsulConfig struct {
 }
 
 type ServerConfig struct {
-	Host string   `mapstructure:"host"`
-	Port uint64   `mapstructure:"port"`
-	Tags []string `mapstructure:"tags" json:"tags"`
 	Name string   `mapstructure:"name" json:"name"`
+	Host string   `mapstructure:"host" json:"host"`
+	Port uint64   `mapstructure:"port" json:"port"`
+	Tags []string `mapstructure:"tags" json:"tags"`
 
 	MysqlInfo  MysqlConfig  `mapstructure:"mysql" json:"mysql"`
 	ConsulInfo ConsulConfig `mapstructure:"consul" json:"consul"`
 }
 
 type NacosConfig struct {
-	Host      string `mapstructure:"host"`
+	Host      string `mapstructure:"host" `
 	Port      uint64 `mapstructure:"port"`
 	Namespace string `mapstructure:"namespace"`
 	User      string `mapstructure:"user"`
