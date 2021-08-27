@@ -13,6 +13,7 @@ require (
 	github.com/go-redsync/redsync/v4 v4.3.0
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/golang/protobuf v1.5.2
+	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mattn/go-isatty v0.0.13 // indirect

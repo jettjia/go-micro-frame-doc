@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/01-redsync/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/config-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/config-prod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/global/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/handler/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/handler/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/initialize/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/initialize/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/initialize/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/initialize/redsyncLock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/proto/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/tests/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/utils/addr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/utils/register/consul/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-idempotency/01-grpc/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-idempotency/01-grpc/proto/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-idempotency/01-grpc/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-idempotency/02-idempotency/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272100" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272300" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272300" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\12-idempotency\01-grpc\proto" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync\initialize" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync\global\redsyncLock" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync\global" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm\01-crud" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync" />
