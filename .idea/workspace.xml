@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/global/global.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/handler/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/handler/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/proto/user.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/tests/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/utils/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/utils/register/consul/register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/api/user/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/config-debug.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/config-pro.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/forms/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/global/global.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/global/response/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/srv_conn.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/initialize/zap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/middlewares/cors.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/proto/user.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/proto/user.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/router/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/utils/addr.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-consul-discovery/utils/register/consul/register.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-nacos/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-grpc-lb/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-grpc-lb/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-grpc-lb/initialize/srv_conn.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-es/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-nacos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-dev-local.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-web.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/08-grpc-lb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08-nacos/02-grpc-nacos" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,16 +63,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\08-grpc-lb" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul-discovery\proto" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\05-viper\initialize" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm\01-crud" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\08-nacos\02-grpc-nacos" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\08-grpc-lb" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul-discovery\proto" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\05-viper\initialize" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,30 +89,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Go Build.go build go-micro-module/08-nacos/01-golang-nacos-api">
-    <configuration name="go build go-micro-module/05-viper" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-micro-module-example" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/05-viper/main.go" />
-      <package value="go-micro-module/05-viper" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build go-micro-module/06-consul-discovery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/06-consul-discovery/main.go" />
       <package value="go-micro-module/06-consul-discovery" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-micro-module/06-consul" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-micro-module-example" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/06-consul/main.go" />
-      <package value="go-micro-module/06-consul" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -140,13 +116,31 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-micro-module/08-nacos/02-grpc-nacos" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/08-nacos/02-grpc-nacos/main.go" />
+      <package value="go-micro-module/08-nacos/02-grpc-nacos" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-micro-module/08-nacos/02-grpc-nacos/tests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-micro-module-example" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/08-nacos/02-grpc-nacos/tests/user.go" />
+      <package value="go-micro-module/08-nacos/02-grpc-nacos/tests" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build go-micro-module/08-nacos/01-golang-nacos-api" />
+        <item itemvalue="Go Build.go build go-micro-module/08-nacos/02-grpc-nacos" />
+        <item itemvalue="Go Build.go build go-micro-module/08-nacos/02-grpc-nacos/tests" />
         <item itemvalue="Go Build.go build go-micro-module/06-consul-discovery" />
         <item itemvalue="Go Build.go build go-micro-module/06-consul/tests" />
-        <item itemvalue="Go Build.go build go-micro-module/06-consul" />
-        <item itemvalue="Go Build.go build go-micro-module/05-viper" />
       </list>
     </recent_temporary>
   </component>

@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"time"
 
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
@@ -51,14 +52,15 @@ func main() {
 	json.Unmarshal([]byte(content), &serverConfig)
 	fmt.Println(serverConfig)
 
-	//err = configClient.ListenConfig(vo.ConfigParam{
-	//	DataId: "user-web.json",
-	//	Group:  "dev",
-	//	OnChange: func(namespace, group, dataId, data string) {
-	//		fmt.Println("配置文件变化")
-	//		fmt.Println("group:" + group + ", dataId:" + dataId + ", data:" + data)
-	//	},
-	//})
-	//time.Sleep(3000 * time.Second)
+	// 监控配置文件变化
+	err = configClient.ListenConfig(vo.ConfigParam{
+		DataId: "user-dev-local.json",
+		Group:  "dev",
+		OnChange: func(namespace, group, dataId, data string) {
+			fmt.Println("配置文件变化")
+			fmt.Println("group:" + group + ", dataId:" + dataId + ", data:" + data)
+		},
+	})
+	time.Sleep(3000 * time.Second)
 
 }
