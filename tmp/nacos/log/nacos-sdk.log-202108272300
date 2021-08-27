@@ -1,0 +1,5 @@
+2021-08-27T23:52:28.283+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro4d0241a1e19bbc4816719d95affee464e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 Long-Pulling-Timeout-No-Hangup:true accessKey: secretKey:] 
+
+2021-08-27T23:52:28.306+0800	[34mINFO[0m	[client.ListenConfig] no change
+2021-08-27T23:52:28.317+0800	[34mINFO[0m	[client.ListenConfig] request params:map[Listening-Configs:user-srv.jsonpro4d0241a1e19bbc4816719d95affee464e16c905e-bd10-4f62-98cb-acc78d967b59 tenant:e16c905e-bd10-4f62-98cb-acc78d967b59] header:map[Content-Type:application/x-www-form-urlencoded;charset=utf-8 Long-Pulling-Timeout:30000 accessKey: secretKey:] 
+
