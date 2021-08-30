@@ -2,14 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12-idempotency/01-grpc/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-idempotency/01-grpc/proto/hello.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-idempotency/01-grpc/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-idempotency/02-idempotency/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/01-simple/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/02-nest/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/errors_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/package.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/shared.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/test/interceptor_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/test/otgrpc_testing/test.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc/test/otgrpc_testing/test.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/proto/helloworld.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/proto/helloworld.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/config-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/config-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/global/global.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/handler/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/handler/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/jaeger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/redsyncLock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/proto/user.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/tests/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/errors_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/package.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/shared.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/test/interceptor_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/test/otgrpc_testing/test.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/otgrpc/test/otgrpc_testing/test.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/utils/register/consul/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/api/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/config-debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/config-pro.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/forms/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/global/global.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/global/response/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/initialize/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/initialize/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/initialize/srv_conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/initialize/zap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/middlewares/cors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/middlewares/tracing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/proto/user.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/errors_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/package.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/shared.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/test/interceptor_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/test/otgrpc_testing/test.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/otgrpc/test/otgrpc_testing/test.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-jaeger/02-web/utils/register/consul/register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-distributed-transaction/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272300" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272300" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-dev-local.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@dev@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108271100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108271900" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108272300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108280000" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +123,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,19 +133,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\13-jaeger\01-jaeger-test\03-grpc-test" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\13-jaeger\03-grpc\utils" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\13-jaeger\02-web\utils" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\13-jaeger\03-grpc" />
+      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\13-jaeger\02-web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\12-idempotency\01-grpc\proto" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync\initialize" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync\global\redsyncLock" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync\global" />
       <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\01-gorm\01-crud" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\10-distributed-lock\02-grpc-redsync" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\08-nacos\02-grpc-nacos" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\08-grpc-lb" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul-discovery\proto" />
-      <recent name="E:\web\go_work\wingopath\self-study\go-micro-module-example\06-consul" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,59 +160,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-micro-module/10-distributed-lock/02-grpc-redsync/tests">
-    <configuration name="go build go-micro-module/08-nacos/01-golang-nacos-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go-micro-module/13-jaeger/01-jaeger-test/01-simple">
+    <configuration name="go build go-micro-module/13-jaeger/01-jaeger-test/01-simple" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/08-nacos/01-golang-nacos-api/main.go" />
-      <package value="go-micro-module/08-nacos/01-golang-nacos-api" />
+      <filePath value="$PROJECT_DIR$/13-jaeger/01-jaeger-test/01-simple/main.go" />
+      <package value="go-micro-module/13-jaeger/01-jaeger-test/01-simple" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/08-nacos/02-grpc-nacos" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/08-nacos/02-grpc-nacos/main.go" />
-      <package value="go-micro-module/08-nacos/02-grpc-nacos" />
+      <filePath value="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/client/client.go" />
+      <package value="go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/client" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/08-nacos/02-grpc-nacos/tests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/08-nacos/02-grpc-nacos/tests/user.go" />
-      <package value="go-micro-module/08-nacos/02-grpc-nacos/tests" />
+      <filePath value="$PROJECT_DIR$/13-jaeger/01-jaeger-test/03-grpc-test/server/server.go" />
+      <package value="go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/10-distributed-lock/01-redsync" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/13-jaeger/02-grpc/tests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/10-distributed-lock/01-redsync/main.go" />
-      <package value="go-micro-module/10-distributed-lock/01-redsync" />
+      <filePath value="$PROJECT_DIR$/13-jaeger/02-grpc/tests/user.go" />
+      <package value="go-micro-module/13-jaeger/02-grpc/tests" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-micro-module/10-distributed-lock/02-grpc-redsync/tests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-micro-module/13-jaeger/03-grpc/tests" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-micro-module-example" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/tests/user.go" />
-      <package value="go-micro-module/10-distributed-lock/02-grpc-redsync/tests" />
+      <filePath value="$PROJECT_DIR$/13-jaeger/03-grpc/tests/user.go" />
+      <package value="go-micro-module/13-jaeger/03-grpc/tests" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go-micro-module/10-distributed-lock/02-grpc-redsync/tests" />
-        <item itemvalue="Go Build.go build go-micro-module/10-distributed-lock/01-redsync" />
-        <item itemvalue="Go Build.go build go-micro-module/08-nacos/01-golang-nacos-api" />
-        <item itemvalue="Go Build.go build go-micro-module/08-nacos/02-grpc-nacos" />
-        <item itemvalue="Go Build.go build go-micro-module/08-nacos/02-grpc-nacos/tests" />
+        <item itemvalue="Go Build.go build go-micro-module/13-jaeger/01-jaeger-test/01-simple" />
+        <item itemvalue="Go Build.go build go-micro-module/13-jaeger/02-grpc/tests" />
+        <item itemvalue="Go Build.go build go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/server" />
+        <item itemvalue="Go Build.go build go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/client" />
+        <item itemvalue="Go Build.go build go-micro-module/13-jaeger/03-grpc/tests" />
       </list>
     </recent_temporary>
   </component>

@@ -1,24 +1,21 @@
 {
-  "name": "user-srv",
+  "name": "user-web",
   "host": "10.4.7.71",
-  "port": 50051,
+  "port": 8021,
   "tags": [
     "imooc",
     "user",
-    "srv"
+    "web"
   ],
-  "mysql": {
+  "env": "dev",
+  "user_srv": {
     "host": "10.4.7.71",
-    "port": 3307,
-    "user": "root",
-    "password": "root",
-    "db": "mxshop_user_srv"
+    "port": 50051,
+    "name": "user-srv"
   },
   "redis": {
-    "host": "10.4.7.71",
-    "port": 6379,
-    "user": "",
-    "password": ""
+    "host": "127.0.0.1",
+    "port": 6379
   },
   "consul": {
     "host": "10.4.7.71",

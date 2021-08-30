@@ -3,6 +3,7 @@ module go-micro-module
 go 1.16
 
 require (
+	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
 	github.com/envoyproxy/protoc-gen-validate v0.6.1
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/gin-gonic/gin v1.7.4
@@ -19,9 +20,13 @@ require (
 	github.com/mattn/go-isatty v0.0.13 // indirect
 	github.com/mbobakov/grpc-consul-resolver v1.4.4
 	github.com/nacos-group/nacos-sdk-go v1.0.8
+	github.com/opentracing/opentracing-go v1.1.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
+	github.com/uber/jaeger-client-go v2.29.1+incompatible
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/zap v1.19.0
+	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
 	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
 	google.golang.org/grpc v1.40.0
 	google.golang.org/protobuf v1.27.1
