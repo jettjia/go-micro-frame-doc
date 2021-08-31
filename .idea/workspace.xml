@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-consul-discovery/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/07-consul-discovery/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-nacos/02-grpc-nacos/initialize/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/initialize/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/10-distributed-lock/02-grpc-redsync/initialize/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-jaeger/02-grpc/handler/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/handler/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/13-jaeger/02-grpc/initialize/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-jaeger/02-web/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/13-jaeger/02-web/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/cache/config/user-srv.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/cache/config/user-web.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/cache/config/user-web.json@@pro@@e16c905e-bd10-4f62-98cb-acc78d967b59" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108312100" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108312100" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
