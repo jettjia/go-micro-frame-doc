@@ -84,13 +84,13 @@ func InitConfig() {
 		DataId: global.NacosConfig.DataId,
 		Group:  global.NacosConfig.Group,
 		OnChange: func(namespace, group, dataId, data string) {
-			// todo, 这里能获取到 nacos 变化的值，但是没能赋值到 ServerConfig中
 			fmt.Println("nacos中的配置", data)
 			// 这里输出的格式是：  { "name": "user-srv", "host": "10.4.7.71" }
 			err = json.Unmarshal([]byte(data), &global.ServerConfig)
 			if err != nil {
 				zap.S().Errorf("配置中心文件改变后，解析 Json失败")
 			}
+			InitDB() // 假设改变了，重新初始化db
 			zap.S().Infof("nacos 改变后配置：", &global.ServerConfig)
 		},
 	})

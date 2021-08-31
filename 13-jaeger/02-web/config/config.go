@@ -28,7 +28,7 @@ type ServerConfig struct {
 	Host string   `mapstructure:"host" json:"host"`
 	Tags []string `mapstructure:"tags" json:"tags"`
 	Port int      `mapstructure:"port" json:"port"`
-	Env  string   `mapstructure:"env" json:"port"`
+	Env  string   `mapstructure:"env" json:"env"`
 
 	UserSrvInfo UserSrvConfig `mapstructure:"user_srv" json:"user_srv"`
 	RedisInfo   RedisConfig   `mapstructure:"redis" json:"redis"`

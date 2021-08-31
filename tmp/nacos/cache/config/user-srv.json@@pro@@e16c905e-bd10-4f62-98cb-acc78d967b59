@@ -9,7 +9,7 @@
   ],
   "mysql": {
     "host": "10.4.7.71",
-    "port": 3307,
+    "port": 3309,
     "user": "root",
     "password": "root",
     "db": "mxshop_user_srv"

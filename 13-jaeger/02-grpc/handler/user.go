@@ -36,6 +36,7 @@ func ModelToRsponse(user model.User) proto.UserInfoResponse {
 // 获取用户列表
 func (s *UserServer) GetUserList(ctx context.Context, req *proto.PageInfo) (*proto.UserListResponse, error) {
 	fmt.Println("我被调用了")
+	fmt.Println("我调用的数据库配置是", global.ServerConfig.MysqlInfo)
 
 	var users []model.User
 	result := global.DB.Find(&users)
