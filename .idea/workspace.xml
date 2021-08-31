@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9097ed28-f1dc-4762-bf64-79b07ff5d872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14-sentinel/01-sentinel-test/01-flow-qps/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/01-sentinel-test/02-flow-warmup/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/01-sentinel-test/03-flow-throttling/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/01-sentinel-test/04-breaker-error_count/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/01-sentinel-test/05-breaker-error_ratio/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/01-sentinel-test/06-breaker-slow_request_ratio/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/api/user/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/config-debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/config-pro.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/forms/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/global/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/global/response/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/sentinel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/srv_conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/initialize/zap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/middlewares/cors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/middlewares/tracing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/proto/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/addr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/errors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/errors_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/package.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/shared.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/test/interceptor_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/test/otgrpc_testing/test.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/otgrpc/test/otgrpc_testing/test.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-sentinel/02-gin-sentinel/utils/register/consul/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108302200" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/nacos/log/nacos-sdk.log-202108302200" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/14-sentinel/02-gin-sentinel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tmp/nacos/log" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
