@@ -26,7 +26,8 @@ require (
 	github.com/mattn/go-isatty v0.0.13 // indirect
 	github.com/mbobakov/grpc-consul-resolver v1.4.4
 	github.com/nacos-group/nacos-sdk-go v1.0.8
-	github.com/opentracing/opentracing-go v1.1.0
+	github.com/olivere/elastic/v7 v7.0.28
+	github.com/opentracing/opentracing-go v1.2.0
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
 	github.com/stretchr/testify v1.7.0
@@ -34,7 +35,7 @@ require (
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/xxl-job/xxl-job-executor-go v1.0.1
 	go.uber.org/zap v1.19.0
-	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
+	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
 	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
 	google.golang.org/grpc v1.40.0
 	google.golang.org/protobuf v1.27.1
