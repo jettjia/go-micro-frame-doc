@@ -1,0 +1,17 @@
+addressing: aggregationSvc
+serverAddressing: localhost:8091
+tm:
+  commitRetryCount: 5
+  rollbackRetryCount: 5
+enforcementPolicy:
+  minTime: 5s
+  permitWithoutStream: true
+serverParameters:
+  maxConnectionIdle: 15s
+  maxConnectionAge: 30s
+  maxConnectionAgeGrace: 5s
+  time: 5s
+  timeout: 1s
+log:
+  logPath: /Users/scottlewis/dksl/temp/seata-samples/gorm/aggregation_svc/aggregation.log
+  logLevel: info

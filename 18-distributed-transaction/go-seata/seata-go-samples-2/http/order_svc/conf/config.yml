@@ -1,0 +1,27 @@
+addressing: orderSvc
+serverAddressing: localhost:8091
+tm:
+  commitRetryCount: 5
+  rollbackRetryCount: 5
+at:
+  dsn: "root:123456@tcp(127.0.0.1:3306)/seata_order?timeout=5s&readTimeout=5s&writeTimeout=1s&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+  reportRetryCount: 5
+  reportSuccessEnable: false
+  lockRetryInterval: 20ms
+  lockRetryTimes: 30
+enforcementPolicy:
+  minTime: 5s
+  permitWithoutStream: true
+serverParameters:
+  maxConnectionIdle: 15s
+  maxConnectionAge: 30s
+  maxConnectionAgeGrace: 5s
+  time: 5s
+  timeout: 1s
+clientParameters:
+  time: 10s
+  timeout: 1s
+  permitWithoutStream: true
+log:
+  logPath: /Users/scottlewis/dksl/temp/seata-samples/http/order_svc/order.log
+  logLevel: info
