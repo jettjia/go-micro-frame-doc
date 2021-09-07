@@ -31,6 +31,7 @@ require (
 	github.com/rabbitmq/amqp091-go v0.0.0-20210823000215-c428a6150891
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
+	github.com/streadway/amqp v1.0.0 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
