@@ -28,6 +28,7 @@ require (
 	github.com/nacos-group/nacos-sdk-go v1.0.8
 	github.com/olivere/elastic/v7 v7.0.28
 	github.com/opentracing/opentracing-go v1.2.0
+	github.com/rabbitmq/amqp091-go v0.0.0-20210823000215-c428a6150891
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
 	github.com/stretchr/testify v1.7.0
