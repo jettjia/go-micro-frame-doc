@@ -34,8 +34,8 @@ func main() {
 			LetterID: id,
 			Body:     []byte("Hello World"),
 			Envelope: &tcr.Envelope{
-				Exchange:     "exchangeName",
-				RoutingKey:   "routingKey/queueName",
+				Exchange:     "MyDeclaredExchangeName",
+				RoutingKey:   "MyDeclaredQueueName",
 				ContentType:  "text/plain",
 				Mandatory:    false,
 				Immediate:    false,
