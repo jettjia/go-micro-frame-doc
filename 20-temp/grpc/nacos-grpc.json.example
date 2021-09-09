@@ -1,0 +1,44 @@
+{
+	"name": "user-srv",     // grpc 服务名称
+	"host": "10.4.7.71",    // grpc 本地启动ip
+	"port": 50051,          // grpc 本地启动 port
+	"tags": [               // grpc 服务tag
+		"imooc",
+		"user",
+		"srv"
+	],
+	"mysql": {
+		"host": "10.4.7.71",
+		"port": 3307,
+		"user": "root",
+		"password": "root",
+		"db": "mxshop_user_srv"
+	},
+	"redis": {
+		"host": "10.4.7.71",
+		"port": 6379,
+		"user": "",
+		"password": ""
+	},
+	"consul": {
+		"host": "10.4.7.71",
+		"port": 8500
+	},
+	"jaeger": {
+		"host": "10.4.7.71",
+		"port": 6831,
+		"name": "mxshop"
+	},
+	"amqp": {
+		"host": "10.4.7.71",
+		"port": 5672,
+		"user": "admin",
+		"password": "123456"
+	},
+	"es": {
+		"host": "10.4.7.71",
+		"port": 9200,
+		"user": "elastic",
+		"password": "hZksYkpkcweABXu68qh0"
+	}
+}
