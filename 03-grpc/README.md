@@ -2396,3 +2396,164 @@ func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {
 }
 ```
 
+
+
+
+
+### 引入 empty.proto
+
+```
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option go_package = ".;proto";
+```
+
+将下载的 empty.proto拷贝到 安装的go目录下
+
+ ![image-20210911134015364](images/image-20210911134015364.png)
+
+
+
+
+
+## grpc-gateway
+
+### 安装
+
+```
+go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
+go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+```
+
+
+
+### proto 文件
+
+```
+syntax = "proto3";
+import "google/api/annotations.proto";
+option go_package = ".;proto";
+
+message StringMessage {
+    string value = 1;
+}
+
+service Gateway {
+    rpc Echo(StringMessage) returns (StringMessage) {
+        option (google.api.http) = {
+           post: "/v1/example/echo"
+           body: "*"
+       };
+    }
+}
+```
+
+
+
+protoc
+
+```
+protoc --go_out=plugins=grpc:./ ./gateway.proto
+protoc --grpc-gateway_out=logtostderr=true:. gateway.proto
+```
+
+
+
+### server.go
+
+```go
+package main
+
+import (
+   "log"
+   "net"
+
+   "golang.org/x/net/context"
+   "google.golang.org/grpc"
+
+   pb "go-micro-module/03-grpc/15-grpc-gateway/proto"
+)
+
+const (
+   PORT = ":9192"
+)
+
+type server struct {}
+
+func (s *server) Echo(ctx context.Context, in *pb.StringMessage) (*pb.StringMessage, error) {
+   log.Println("request: ", in.Value)
+   return &pb.StringMessage{Value: "Hello " + in.Value}, nil
+}
+
+func main() {
+   lis, err := net.Listen("tcp", PORT)
+
+   if err != nil {
+      log.Fatalf("failed to listen: %v", err)
+   }
+
+   s := grpc.NewServer()
+   pb.RegisterGatewayServer(s, &server{})
+   log.Println("rpc服务已经开启")
+   s.Serve(lis)
+}
+```
+
+### gateway.go
+
+```go
+package main
+
+import (
+	"flag"
+	"log"
+	"net/http"
+
+	"github.com/golang/glog"
+	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"golang.org/x/net/context"
+	"google.golang.org/grpc"
+
+	gw "go-micro-module/03-grpc/15-grpc-gateway/proto"
+)
+
+var (
+	echoEndpoint = flag.String("echo_endpoint", "localhost:9192", "endpoint of Gateway")
+)
+
+func run() error {
+	ctx := context.Background()
+	ctx, cancel := context.WithCancel(ctx)
+	defer cancel()
+
+	mux := runtime.NewServeMux()
+	opts := []grpc.DialOption{grpc.WithInsecure()}
+	err := gw.RegisterGatewayHandlerFromEndpoint(ctx, mux, *echoEndpoint, opts)
+	if err != nil {
+		return err
+	}
+
+	log.Println("服务开启")
+	return http.ListenAndServe(":8080", mux)
+}
+
+func main() {
+	flag.Parse()
+	defer glog.Flush()
+
+	if err := run(); err != nil {
+		glog.Fatal(err)
+	}
+}
+```
+
+
+
+### test
+
+先开启 service，再开启 gateway
+
+```
+curl -X POST -k http://localhost:8080/v1/example/echo -d '{"value":"world"}'
+```
+

@@ -16,9 +16,11 @@ require (
 	github.com/go-redis/redis/v8 v8.11.3
 	github.com/go-redsync/redsync/v4 v4.3.0
 	github.com/go-sql-driver/mysql v1.6.0
+	github.com/golang/glog v1.0.0
 	github.com/golang/protobuf v1.5.2
 	github.com/google/uuid v1.3.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
+	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/houseofcat/turbocookedrabbit/v2 v2.1.3
@@ -31,7 +33,7 @@ require (
 	github.com/rabbitmq/amqp091-go v0.0.0-20210823000215-c428a6150891
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
-	github.com/streadway/amqp v1.0.0 // indirect
+	github.com/streadway/amqp v1.0.0
 	github.com/stretchr/testify v1.7.0
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
@@ -39,6 +41,7 @@ require (
 	go.uber.org/zap v1.19.0
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
 	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
+	google.golang.org/genproto v0.0.0-20210909211513-a8c4777a87af
 	google.golang.org/grpc v1.40.0
 	google.golang.org/protobuf v1.27.1
 	gorm.io/driver/mysql v1.1.2
