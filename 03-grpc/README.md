@@ -2429,7 +2429,7 @@ go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 
 ### proto 文件
 
-```
+```protobuf
 syntax = "proto3";
 import "google/api/annotations.proto";
 option go_package = ".;proto";
