@@ -22,5 +22,6 @@ kong		【网关】
 amqp            【amqp，消息队列，比如：rabbitmq】
 cron            【分布式定时任务】
 分布式事务	【rocketmq，事务消息方式；方式2：seata-golang】
+分布式mysql	
 ```
 
