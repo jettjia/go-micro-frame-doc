@@ -1,4 +1,4 @@
-# go-micro-module
+# go-microservices
 
 这里将使用下面的工具，分模块的方式，实现微服务。
 每一个模块就像打怪一样，逐步升级，最终实现 golang 的微服务整体解决方案。
