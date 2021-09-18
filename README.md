@@ -1,8 +1,6 @@
-# go-microservices
+# go-micro-frame-doc
 
-这里将使用下面的工具，分模块的方式，实现微服务。
-每一个模块就像打怪一样，逐步升级，最终实现 golang 的微服务整体解决方案。
-后面会增加一个完备的模板案例，来方便快速开发
+go-micro-frame框架的文档
 
 ```
 gorm		【orm】
