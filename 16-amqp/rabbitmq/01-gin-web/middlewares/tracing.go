@@ -7,7 +7,7 @@ import (
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
 
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/global"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/global"
 )
 
 func Trace() gin.HandlerFunc{

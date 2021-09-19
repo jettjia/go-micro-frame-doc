@@ -5,7 +5,7 @@ import (
 	"github.com/olivere/elastic/v7"
 	"gorm.io/gorm"
 
-	"go-micro-module/17-es/02-grpc/config"
+	"go-micro-frame-doc/17-es/02-grpc/config"
 )
 
 var (

@@ -117,7 +117,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"go-micro-module/08-nacos/01-golang-nacos-api/config"
+	"go-micro-frame-doc/08-nacos/01-golang-nacos-api/config"
 )
 
 func main() {
@@ -309,7 +309,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/08-nacos/02-grpc-nacos/global"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/global"
 )
 
 // 读取环境变量的配置

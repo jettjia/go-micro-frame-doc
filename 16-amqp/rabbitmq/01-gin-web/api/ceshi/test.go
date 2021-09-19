@@ -2,7 +2,7 @@ package ceshi
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/amqp/producer"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/amqp/producer"
 	"net/http"
 )
 

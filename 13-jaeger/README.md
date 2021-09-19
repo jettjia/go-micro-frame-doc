@@ -184,10 +184,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
-	"go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc"
+	"go-micro-frame-doc/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc"
 	"google.golang.org/grpc"
 
-	"go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/proto"
+	"go-micro-frame-doc/13-jaeger/01-jaeger-test/03-grpc-test/proto"
 )
 
 func main() {
@@ -244,9 +244,9 @@ import (
 
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
-	"go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc"
+	"go-micro-frame-doc/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc"
 
-	"go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/proto"
+	"go-micro-frame-doc/13-jaeger/01-jaeger-test/03-grpc-test/proto"
 )
 
 type Server struct{}
@@ -391,7 +391,7 @@ package initialize
 import (
 	"fmt"
 	"github.com/opentracing/opentracing-go"
-	"go-micro-module/13-jaeger/02-grpc/global"
+	"go-micro-frame-doc/13-jaeger/02-grpc/global"
 
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
@@ -432,7 +432,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/opentracing/opentracing-go"
-	"go-micro-module/13-jaeger/03-grpc/utils/otgrpc"
+	"go-micro-frame-doc/13-jaeger/03-grpc/utils/otgrpc"
 	"net"
 	"os"
 	"os/signal"
@@ -444,12 +444,12 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"go-micro-module/13-jaeger/03-grpc/global"
-	"go-micro-module/13-jaeger/03-grpc/handler"
-	"go-micro-module/13-jaeger/03-grpc/initialize"
-	"go-micro-module/13-jaeger/03-grpc/proto"
-	"go-micro-module/13-jaeger/03-grpc/utils"
-	"go-micro-module/13-jaeger/03-grpc/utils/register/consul"
+	"go-micro-frame-doc/13-jaeger/03-grpc/global"
+	"go-micro-frame-doc/13-jaeger/03-grpc/handler"
+	"go-micro-frame-doc/13-jaeger/03-grpc/initialize"
+	"go-micro-frame-doc/13-jaeger/03-grpc/proto"
+	"go-micro-frame-doc/13-jaeger/03-grpc/utils"
+	"go-micro-frame-doc/13-jaeger/03-grpc/utils/register/consul"
 )
 
 func main() {
@@ -649,8 +649,8 @@ package global
 import (
 	ut "github.com/go-playground/universal-translator"
 
-	"go-micro-module/13-jaeger/02-web/config"
-	"go-micro-module/13-jaeger/02-web/proto"
+	"go-micro-frame-doc/13-jaeger/02-web/config"
+	"go-micro-frame-doc/13-jaeger/02-web/proto"
 )
 
 var (
@@ -728,7 +728,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/13-jaeger/02-web/global"
+	"go-micro-frame-doc/13-jaeger/02-web/global"
 )
 
 func GetEnvInfo(env string) bool {
@@ -914,7 +914,7 @@ import (
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
 
-	"go-micro-module/13-jaeger/02-web/global"
+	"go-micro-frame-doc/13-jaeger/02-web/global"
 )
 
 func Trace() gin.HandlerFunc {
@@ -961,12 +961,12 @@ import (
 
 	_ "github.com/mbobakov/grpc-consul-resolver" // It's important
 	"github.com/opentracing/opentracing-go"
-	"go-micro-module/13-jaeger/02-web/utils/otgrpc"
+	"go-micro-frame-doc/13-jaeger/02-web/utils/otgrpc"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go-micro-module/13-jaeger/02-web/global"
-	"go-micro-module/13-jaeger/02-web/proto"
+	"go-micro-frame-doc/13-jaeger/02-web/global"
+	"go-micro-frame-doc/13-jaeger/02-web/proto"
 )
 
 func InitSrvConn(){
@@ -998,8 +998,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	api "go-micro-module/13-jaeger/02-web/api/user"
-	"go-micro-module/13-jaeger/02-web/middlewares"
+	api "go-micro-frame-doc/13-jaeger/02-web/api/user"
+	"go-micro-frame-doc/13-jaeger/02-web/middlewares"
 )
 
 func InitUserRouter(Router *gin.RouterGroup){

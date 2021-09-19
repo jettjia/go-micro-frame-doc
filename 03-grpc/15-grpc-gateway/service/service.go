@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	pb "go-micro-module/03-grpc/15-grpc-gateway/proto"
+	pb "go-micro-frame-doc/03-grpc/15-grpc-gateway/proto"
 )
 
 const (

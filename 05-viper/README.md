@@ -49,7 +49,7 @@ type ServerConfig struct {
 package global
 
 import (
-	"go-micro-module/05-viper/config"
+	"go-micro-frame-doc/05-viper/config"
 )
 
 var (
@@ -65,7 +65,7 @@ package initialize
 import (
 	"fmt"
 	"github.com/fsnotify/fsnotify"
-	"go-micro-module/05-viper/global"
+	"go-micro-frame-doc/05-viper/global"
 	"go.uber.org/zap"
 
 	"github.com/spf13/viper"
@@ -117,8 +117,8 @@ package main
 
 import (
 	"fmt"
-	"go-micro-module/05-viper/global"
-	"go-micro-module/05-viper/initialize"
+	"go-micro-frame-doc/05-viper/global"
+	"go-micro-frame-doc/05-viper/initialize"
 )
 
 func main() {

@@ -8,9 +8,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/global"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/proto"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/utils/otgrpc"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/global"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/proto"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/utils/otgrpc"
 )
 
 func InitSrvConn(){

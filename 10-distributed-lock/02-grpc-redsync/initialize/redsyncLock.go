@@ -7,7 +7,7 @@ import (
 	"github.com/go-redsync/redsync/v4"
 	"github.com/go-redsync/redsync/v4/redis/goredis/v8"
 
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/global"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/global"
 )
 
 func InitRedsyncLock() {

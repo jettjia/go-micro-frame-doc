@@ -6,9 +6,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/global"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/model"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/proto"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/global"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/model"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/proto"
 )
 
 type UserServer struct {

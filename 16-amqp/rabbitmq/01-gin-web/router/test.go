@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/api/ceshi"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/middlewares"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/api/ceshi"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/middlewares"
 )
 
 func InitTestRouter(Router *gin.RouterGroup){

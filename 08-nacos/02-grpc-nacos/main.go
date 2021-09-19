@@ -14,12 +14,12 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"go-micro-module/08-nacos/02-grpc-nacos/global"
-	"go-micro-module/08-nacos/02-grpc-nacos/handler"
-	"go-micro-module/08-nacos/02-grpc-nacos/initialize"
-	"go-micro-module/08-nacos/02-grpc-nacos/proto"
-	"go-micro-module/08-nacos/02-grpc-nacos/utils"
-	"go-micro-module/08-nacos/02-grpc-nacos/utils/register/consul"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/global"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/handler"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/initialize"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/proto"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/utils"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/utils/register/consul"
 )
 
 func main() {

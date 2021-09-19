@@ -1,7 +1,7 @@
 package global
 
 import (
-	"go-micro-module/05-viper/config"
+	"go-micro-frame-doc/05-viper/config"
 )
 
 var (

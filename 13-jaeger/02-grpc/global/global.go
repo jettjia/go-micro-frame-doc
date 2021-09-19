@@ -4,7 +4,7 @@ import (
 	"github.com/go-redsync/redsync/v4"
 	"gorm.io/gorm"
 
-	"go-micro-module/13-jaeger/02-grpc/config"
+	"go-micro-frame-doc/13-jaeger/02-grpc/config"
 )
 
 var (

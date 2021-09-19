@@ -3,7 +3,7 @@ package initialize
 import (
 	"fmt"
 	"github.com/fsnotify/fsnotify"
-	"go-micro-module/05-viper/global"
+	"go-micro-frame-doc/05-viper/global"
 	"go.uber.org/zap"
 
 	"github.com/spf13/viper"

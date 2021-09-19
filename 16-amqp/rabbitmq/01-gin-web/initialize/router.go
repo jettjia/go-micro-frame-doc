@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/middlewares"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/router"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/middlewares"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/router"
 	"net/http"
 )
 

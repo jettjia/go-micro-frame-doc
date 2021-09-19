@@ -3,7 +3,7 @@ package global
 import (
 	"gorm.io/gorm"
 
-	"go-micro-module/08-nacos/02-grpc-nacos/config"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/config"
 )
 
 var (

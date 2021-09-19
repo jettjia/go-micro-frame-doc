@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/13-jaeger/02-web/api/user"
-	"go-micro-module/13-jaeger/02-web/middlewares"
+	"go-micro-frame-doc/13-jaeger/02-web/api/user"
+	"go-micro-frame-doc/13-jaeger/02-web/middlewares"
 )
 
 func InitUserRouter(Router *gin.RouterGroup){

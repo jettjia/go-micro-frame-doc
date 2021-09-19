@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/14-sentinel/02-gin-sentinel/global"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/global"
 )
 
 func GetEnvInfo(env string) bool {

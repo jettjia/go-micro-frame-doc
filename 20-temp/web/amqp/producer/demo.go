@@ -3,7 +3,7 @@ package producer
 import (
 	"log"
 
-	"go-micro-module/20-temp/web/utils/amqpRabbit"
+	"go-micro-frame-doc/20-temp/web/utils/amqpRabbit"
 )
 
 // 发送消息到 mq

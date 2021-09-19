@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/proto"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/proto"
 )
 
 var userClient proto.UserClient

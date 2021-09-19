@@ -14,12 +14,12 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/global"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/handler"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/initialize"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/proto"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/utils"
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/utils/register/consul"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/global"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/handler"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/initialize"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/proto"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/utils"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/utils/register/consul"
 )
 
 func main() {

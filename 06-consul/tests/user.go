@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-micro-module/06-consul/proto"
+	"go-micro-frame-doc/06-consul/proto"
 )
 
 var userClient proto.UserClient

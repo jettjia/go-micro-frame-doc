@@ -4,7 +4,7 @@ package consumer
 //	"log"
 //	"time"
 //
-//	"go-micro-module/20-temp/web/utils/amqpRabbit"
+//	"go-micro-frame-doc/20-temp/web/utils/amqpRabbit"
 //)
 //
 //func init()  {

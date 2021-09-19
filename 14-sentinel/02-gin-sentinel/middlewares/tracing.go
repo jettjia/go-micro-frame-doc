@@ -7,7 +7,7 @@ import (
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
 
-	"go-micro-module/14-sentinel/02-gin-sentinel/global"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/global"
 )
 
 func Trace() gin.HandlerFunc{

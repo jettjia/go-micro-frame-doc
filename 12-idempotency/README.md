@@ -71,7 +71,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"go-micro-module/12-idempotency/01-grpc/proto"
+	"go-micro-frame-doc/12-idempotency/01-grpc/proto"
 	"net"
 	"time"
 
@@ -122,7 +122,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"go-micro-module/12-idempotency/01-grpc/proto"
+	"go-micro-frame-doc/12-idempotency/01-grpc/proto"
 	"time"
 
 	"google.golang.org/grpc/codes"

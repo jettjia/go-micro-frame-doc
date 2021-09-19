@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/17-es/02-grpc/global"
+	"go-micro-frame-doc/17-es/02-grpc/global"
 )
 
 // 读取环境变量的配置

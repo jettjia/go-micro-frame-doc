@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-micro-module/08-nacos/02-grpc-nacos/global"
-	"go-micro-module/08-nacos/02-grpc-nacos/model"
-	"go-micro-module/08-nacos/02-grpc-nacos/proto"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/global"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/model"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/proto"
 )
 
 type UserServer struct {

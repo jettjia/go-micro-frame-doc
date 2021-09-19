@@ -9,7 +9,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"go-micro-module/08-nacos/01-golang-nacos-api/config"
+	"go-micro-frame-doc/08-nacos/01-golang-nacos-api/config"
 )
 
 func main() {

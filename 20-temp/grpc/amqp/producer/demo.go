@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/utils/amqpRabbit"
-	"go-micro-module/20-temp/grpc/global"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/utils/amqpRabbit"
+	"go-micro-frame-doc/20-temp/grpc/global"
 )
 
 // 发送消息到 mq

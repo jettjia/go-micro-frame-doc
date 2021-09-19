@@ -8,9 +8,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go-micro-module/13-jaeger/02-web/global"
-	"go-micro-module/13-jaeger/02-web/proto"
-	"go-micro-module/13-jaeger/02-web/utils/otgrpc"
+	"go-micro-frame-doc/13-jaeger/02-web/global"
+	"go-micro-frame-doc/13-jaeger/02-web/proto"
+	"go-micro-frame-doc/13-jaeger/02-web/utils/otgrpc"
 )
 
 func InitSrvConn(){

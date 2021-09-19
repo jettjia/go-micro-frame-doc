@@ -4,7 +4,7 @@ package consumer
 //	"log"
 //	"time"
 //
-//	"go-micro-module/16-amqp/rabbitmq/01-gin-web/utils/amqpRabbit"
+//	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/utils/amqpRabbit"
 //)
 //
 //func init()  {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-micro-module/01-gorm/01-crud/model"
+	"go-micro-frame-doc/01-gorm/01-crud/model"
 )
 
 

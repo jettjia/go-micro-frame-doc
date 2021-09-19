@@ -7,10 +7,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
-	"go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc"
+	"go-micro-frame-doc/13-jaeger/01-jaeger-test/03-grpc-test/otgrpc"
 	"google.golang.org/grpc"
 
-	"go-micro-module/13-jaeger/01-jaeger-test/03-grpc-test/proto"
+	"go-micro-frame-doc/13-jaeger/01-jaeger-test/03-grpc-test/proto"
 )
 
 func main() {

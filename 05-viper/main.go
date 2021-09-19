@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-micro-module/05-viper/global"
-	"go-micro-module/05-viper/initialize"
+	"go-micro-frame-doc/05-viper/global"
+	"go-micro-frame-doc/05-viper/initialize"
 )
 
 func main() {

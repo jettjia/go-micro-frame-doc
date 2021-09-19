@@ -7,9 +7,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go-micro-module/13-jaeger/02-grpc/global"
-	"go-micro-module/13-jaeger/02-grpc/model"
-	"go-micro-module/13-jaeger/02-grpc/proto"
+	"go-micro-frame-doc/13-jaeger/02-grpc/global"
+	"go-micro-frame-doc/13-jaeger/02-grpc/model"
+	"go-micro-frame-doc/13-jaeger/02-grpc/proto"
 )
 
 type UserServer struct {

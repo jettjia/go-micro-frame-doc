@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/global"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/global"
 )
 
 func GetEnvInfo(env string) bool {

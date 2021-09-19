@@ -146,7 +146,7 @@ type ServerConfig struct {
 ```go
 package global
 
-import "go-micro-module/07-consul-discovery/config"
+import "go-micro-frame-doc/07-consul-discovery/config"
 
 var (
 	ServerConfig *config.ServerConfig = &config.ServerConfig{}
@@ -167,7 +167,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/07-consul-discovery/global"
+	"go-micro-frame-doc/07-consul-discovery/global"
 )
 
 func GetEnvInfo(env string) bool {
@@ -230,7 +230,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	api "go-micro-module/07-consul-discovery/api/user"
+	api "go-micro-frame-doc/07-consul-discovery/api/user"
 )
 
 func InitUserRouter(Router *gin.RouterGroup){
@@ -250,8 +250,8 @@ package initialize
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/07-consul-discovery/middlewares"
-	"go-micro-module/07-consul-discovery/router"
+	"go-micro-frame-doc/07-consul-discovery/middlewares"
+	"go-micro-frame-doc/07-consul-discovery/router"
 	"net/http"
 )
 
@@ -286,8 +286,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"go-micro-module/07-consul-discovery/global"
-	"go-micro-module/07-consul-discovery/initialize"
+	"go-micro-frame-doc/07-consul-discovery/global"
+	"go-micro-frame-doc/07-consul-discovery/initialize"
 )
 
 func main()  {
@@ -335,8 +335,8 @@ package global
 import (
 	ut "github.com/go-playground/universal-translator"
 
-	"go-micro-module/07-consul-discovery/config"
-	"go-micro-module/07-consul-discovery/proto"
+	"go-micro-frame-doc/07-consul-discovery/config"
+	"go-micro-frame-doc/07-consul-discovery/proto"
 )
 
 var (
@@ -362,8 +362,8 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go-micro-module/07-consul-discovery/global"
-	"go-micro-module/07-consul-discovery/proto"
+	"go-micro-frame-doc/07-consul-discovery/global"
+	"go-micro-frame-doc/07-consul-discovery/proto"
 )
 
 func InitSrvConn(){
@@ -403,9 +403,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go-micro-module/07-consul-discovery/global"
-	reponse "go-micro-module/07-consul-discovery/global/response"
-	"go-micro-module/07-consul-discovery/proto"
+	"go-micro-frame-doc/07-consul-discovery/global"
+	reponse "go-micro-frame-doc/07-consul-discovery/global/response"
+	"go-micro-frame-doc/07-consul-discovery/proto"
 )
 
 func removeTopStruct(fileds map[string]string) map[string]string{
@@ -511,8 +511,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"go-micro-module/07-consul-discovery/global"
-	"go-micro-module/07-consul-discovery/initialize"
+	"go-micro-frame-doc/07-consul-discovery/global"
+	"go-micro-frame-doc/07-consul-discovery/initialize"
 )
 
 func main()  {
@@ -774,10 +774,10 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"go.uber.org/zap"
 
-	"go-micro-module/07-consul-discovery/global"
-	"go-micro-module/07-consul-discovery/initialize"
-	"go-micro-module/07-consul-discovery/utils"
-	"go-micro-module/07-consul-discovery/utils/register/consul"
+	"go-micro-frame-doc/07-consul-discovery/global"
+	"go-micro-frame-doc/07-consul-discovery/initialize"
+	"go-micro-frame-doc/07-consul-discovery/utils"
+	"go-micro-frame-doc/07-consul-discovery/utils/register/consul"
 )
 
 func main() {

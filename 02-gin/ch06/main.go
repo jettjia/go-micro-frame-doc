@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"go-micro-module/02-gin/ch06/proto"
+	"go-micro-frame-doc/02-gin/ch06/proto"
 )
 
 func main() {

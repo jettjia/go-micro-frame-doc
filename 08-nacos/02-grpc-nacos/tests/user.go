@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-micro-module/08-nacos/02-grpc-nacos/proto"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/proto"
 )
 
 var userClient proto.UserClient

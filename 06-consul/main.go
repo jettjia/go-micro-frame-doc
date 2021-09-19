@@ -14,12 +14,12 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"go-micro-module/06-consul/global"
-	"go-micro-module/06-consul/handler"
-	"go-micro-module/06-consul/initialize"
-	"go-micro-module/06-consul/proto"
-	"go-micro-module/06-consul/utils"
-	"go-micro-module/06-consul/utils/register/consul"
+	"go-micro-frame-doc/06-consul/global"
+	"go-micro-frame-doc/06-consul/handler"
+	"go-micro-frame-doc/06-consul/initialize"
+	"go-micro-frame-doc/06-consul/proto"
+	"go-micro-frame-doc/06-consul/utils"
+	"go-micro-frame-doc/06-consul/utils/register/consul"
 )
 
 func main() {

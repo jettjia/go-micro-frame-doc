@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	api "go-micro-module/07-consul-discovery/api/user"
+	api "go-micro-frame-doc/07-consul-discovery/api/user"
 )
 
 func InitUserRouter(Router *gin.RouterGroup){

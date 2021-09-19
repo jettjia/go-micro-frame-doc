@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-micro-module/06-consul/global"
-	"go-micro-module/06-consul/model"
-	"go-micro-module/06-consul/proto"
+	"go-micro-frame-doc/06-consul/global"
+	"go-micro-frame-doc/06-consul/model"
+	"go-micro-frame-doc/06-consul/proto"
 )
 
 type UserServer struct {

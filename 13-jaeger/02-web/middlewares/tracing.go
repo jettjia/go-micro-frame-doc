@@ -7,7 +7,7 @@ import (
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
 
-	"go-micro-module/13-jaeger/02-web/global"
+	"go-micro-frame-doc/13-jaeger/02-web/global"
 )
 
 func Trace() gin.HandlerFunc{

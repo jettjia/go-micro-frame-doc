@@ -3,7 +3,7 @@ package initialize
 import (
 	"fmt"
 	"github.com/opentracing/opentracing-go"
-	"go-micro-module/20-temp/grpc/global"
+	"go-micro-frame-doc/20-temp/grpc/global"
 
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"

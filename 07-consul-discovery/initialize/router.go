@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/07-consul-discovery/middlewares"
-	"go-micro-module/07-consul-discovery/router"
+	"go-micro-frame-doc/07-consul-discovery/middlewares"
+	"go-micro-frame-doc/07-consul-discovery/router"
 	"net/http"
 )
 

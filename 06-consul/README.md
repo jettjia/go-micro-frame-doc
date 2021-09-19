@@ -265,7 +265,7 @@ package initialize
 import (
 	"fmt"
 	"github.com/fsnotify/fsnotify"
-	"go-micro-module/06-consul/global"
+	"go-micro-frame-doc/06-consul/global"
 	"go.uber.org/zap"
 
 	"github.com/spf13/viper"
@@ -327,7 +327,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	"go-micro-module/06-consul/global"
+	"go-micro-frame-doc/06-consul/global"
 )
 
 func InitDB() {
@@ -369,7 +369,7 @@ package global
 import (
 	"gorm.io/gorm"
 
-	"go-micro-module/06-consul/config"
+	"go-micro-frame-doc/06-consul/config"
 )
 
 var (
@@ -426,9 +426,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-micro-module/06-consul/global"
-	"go-micro-module/06-consul/model"
-	"go-micro-module/06-consul/proto"
+	"go-micro-frame-doc/06-consul/global"
+	"go-micro-frame-doc/06-consul/model"
+	"go-micro-frame-doc/06-consul/proto"
 )
 
 type UserServer struct {
@@ -629,12 +629,12 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"go-micro-module/06-consul/global"
-	"go-micro-module/06-consul/handler"
-	"go-micro-module/06-consul/initialize"
-	"go-micro-module/06-consul/proto"
-	"go-micro-module/06-consul/utils"
-	"go-micro-module/06-consul/utils/register/consul"
+	"go-micro-frame-doc/06-consul/global"
+	"go-micro-frame-doc/06-consul/handler"
+	"go-micro-frame-doc/06-consul/initialize"
+	"go-micro-frame-doc/06-consul/proto"
+	"go-micro-frame-doc/06-consul/utils"
+	"go-micro-frame-doc/06-consul/utils/register/consul"
 )
 
 func main() {

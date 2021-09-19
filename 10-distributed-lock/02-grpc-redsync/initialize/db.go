@@ -12,7 +12,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/global"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/global"
 )
 
 func InitDB() {

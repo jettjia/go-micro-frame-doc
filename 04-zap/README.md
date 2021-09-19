@@ -29,7 +29,7 @@ func InitLogger() {
 package main
 
 import (
-	"go-micro-module/04-zap/initialize"
+	"go-micro-frame-doc/04-zap/initialize"
 	"go.uber.org/zap"
 )
 

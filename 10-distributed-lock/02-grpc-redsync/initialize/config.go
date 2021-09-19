@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/10-distributed-lock/02-grpc-redsync/global"
+	"go-micro-frame-doc/10-distributed-lock/02-grpc-redsync/global"
 )
 
 // 读取环境变量的配置

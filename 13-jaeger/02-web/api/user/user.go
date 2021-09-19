@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go-micro-module/13-jaeger/02-web/global"
-	reponse "go-micro-module/13-jaeger/02-web/global/response"
-	"go-micro-module/13-jaeger/02-web/proto"
+	"go-micro-frame-doc/13-jaeger/02-web/global"
+	reponse "go-micro-frame-doc/13-jaeger/02-web/global/response"
+	"go-micro-frame-doc/13-jaeger/02-web/proto"
 )
 
 func removeTopStruct(fileds map[string]string) map[string]string{

@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/global"
-	reponse "go-micro-module/16-amqp/rabbitmq/01-gin-web/global/response"
-	"go-micro-module/16-amqp/rabbitmq/01-gin-web/proto"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/global"
+	reponse "go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/global/response"
+	"go-micro-frame-doc/16-amqp/rabbitmq/01-gin-web/proto"
 )
 
 func removeTopStruct(fileds map[string]string) map[string]string{

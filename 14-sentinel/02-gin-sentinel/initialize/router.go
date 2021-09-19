@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/14-sentinel/02-gin-sentinel/middlewares"
-	"go-micro-module/14-sentinel/02-gin-sentinel/router"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/middlewares"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/router"
 	"net/http"
 )
 

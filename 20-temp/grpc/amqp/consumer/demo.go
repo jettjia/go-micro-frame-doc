@@ -7,7 +7,7 @@ import (
 
 	"github.com/streadway/amqp"
 
-	"go-micro-module/20-temp/grpc/global"
+	"go-micro-frame-doc/20-temp/grpc/global"
 )
 
 func init()  {

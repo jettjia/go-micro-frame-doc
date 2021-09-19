@@ -13,11 +13,11 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	_ "go-micro-module/20-temp/web/amqp/consumer"
-	"go-micro-module/20-temp/web/global"
-	"go-micro-module/20-temp/web/initialize"
-	"go-micro-module/20-temp/web/utils"
-	"go-micro-module/20-temp/web/utils/register/consul"
+	_ "go-micro-frame-doc/20-temp/web/amqp/consumer"
+	"go-micro-frame-doc/20-temp/web/global"
+	"go-micro-frame-doc/20-temp/web/initialize"
+	"go-micro-frame-doc/20-temp/web/utils"
+	"go-micro-frame-doc/20-temp/web/utils/register/consul"
 )
 
 func main() {

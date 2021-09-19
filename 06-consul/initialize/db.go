@@ -12,7 +12,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	"go-micro-module/06-consul/global"
+	"go-micro-frame-doc/06-consul/global"
 )
 
 func InitDB() {

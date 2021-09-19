@@ -3,8 +3,8 @@ package global
 import (
 	ut "github.com/go-playground/universal-translator"
 
-	"go-micro-module/14-sentinel/02-gin-sentinel/config"
-	"go-micro-module/14-sentinel/02-gin-sentinel/proto"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/config"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/proto"
 )
 
 var (

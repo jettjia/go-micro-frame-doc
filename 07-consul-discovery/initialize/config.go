@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"go-micro-module/07-consul-discovery/global"
+	"go-micro-frame-doc/07-consul-discovery/global"
 )
 
 func GetEnvInfo(env string) bool {

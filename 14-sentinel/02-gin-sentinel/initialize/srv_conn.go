@@ -8,9 +8,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go-micro-module/14-sentinel/02-gin-sentinel/global"
-	"go-micro-module/14-sentinel/02-gin-sentinel/proto"
-	"go-micro-module/14-sentinel/02-gin-sentinel/utils/otgrpc"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/global"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/proto"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/utils/otgrpc"
 )
 
 func InitSrvConn(){

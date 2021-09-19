@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-micro-module/20-temp/web/middlewares"
-	"go-micro-module/20-temp/web/router"
+	"go-micro-frame-doc/20-temp/web/middlewares"
+	"go-micro-frame-doc/20-temp/web/router"
 	"net/http"
 )
 

@@ -12,7 +12,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	"go-micro-module/08-nacos/02-grpc-nacos/global"
+	"go-micro-frame-doc/08-nacos/02-grpc-nacos/global"
 )
 
 func InitDB() {

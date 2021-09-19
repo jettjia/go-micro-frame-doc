@@ -1,4 +1,4 @@
-module go-micro-module
+module go-micro-frame-doc
 
 go 1.16
 

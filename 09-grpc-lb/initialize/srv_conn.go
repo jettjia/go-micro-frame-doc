@@ -7,8 +7,8 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go-micro-module/06-consul-discovery/global"
-	"go-micro-module/06-consul-discovery/proto"
+	"go-micro-frame-doc/06-consul-discovery/global"
+	"go-micro-frame-doc/06-consul-discovery/proto"
 )
 
 func InitSrvConn(){

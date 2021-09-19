@@ -635,9 +635,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go-micro-module/14-sentinel/02-gin-sentinel/global"
-	reponse "go-micro-module/14-sentinel/02-gin-sentinel/global/response"
-	"go-micro-module/14-sentinel/02-gin-sentinel/proto"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/global"
+	reponse "go-micro-frame-doc/14-sentinel/02-gin-sentinel/global/response"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/proto"
 )
 
 func removeTopStruct(fileds map[string]string) map[string]string{

@@ -13,10 +13,10 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"go-micro-module/14-sentinel/02-gin-sentinel/global"
-	"go-micro-module/14-sentinel/02-gin-sentinel/initialize"
-	"go-micro-module/14-sentinel/02-gin-sentinel/utils"
-	"go-micro-module/14-sentinel/02-gin-sentinel/utils/register/consul"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/global"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/initialize"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/utils"
+	"go-micro-frame-doc/14-sentinel/02-gin-sentinel/utils/register/consul"
 )
 
 func main() {
