@@ -23,6 +23,15 @@ dig @10.4.7.71 -p 8600 consul.service.consul SRV
 
 
 
+```
+win10 安装
+https://www.consul.io/downloads
+解压到 E:\dev\dev-win\consul
+cmd: consul
+```
+
+
+
 ## consul 的 api 接口
 
 https://www.consul.io/api-docs/agent/service
