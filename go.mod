@@ -31,6 +31,7 @@ require (
 	github.com/nacos-group/nacos-sdk-go v1.0.8
 	github.com/olivere/elastic/v7 v7.0.28
 	github.com/opentracing/opentracing-go v1.2.0
+	github.com/prometheus/client_golang v1.11.0 // indirect
 	github.com/rabbitmq/amqp091-go v0.0.0-20210823000215-c428a6150891
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.8.1
@@ -39,7 +40,6 @@ require (
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/xxl-job/xxl-job-executor-go v1.0.1
-	github.com/yedf/dtm v1.1.0
 	github.com/yedf/dtmcli v1.0.0
 	go.uber.org/zap v1.19.0
 	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d
