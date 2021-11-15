@@ -21,6 +21,7 @@ docker run -d --name kong-database \
            -e "POSTGRES_PASSWORD=kong" \
            postgres:12
  
+ ## 运行临时Kong容器迁移数据库
 docker run --rm \
     -e "KONG_DATABASE=postgres" \
     -e "KONG_PG_HOST=10.4.7.71" \
@@ -42,7 +43,7 @@ cp /etc/kong/kong.conf.default /etc/kong/kong.conf
 vim /etc/kong/kong.conf
 ## 修改如下内容
 database = postgres
-pg_host = 10.4.7.71 ## 配置队伍的ip，不是127.0.0.1
+pg_host = 10.4.7.71 ## 配置服务器的ip，不是127.0.0.1
 pg_port = 5432
 pg_timeout = 5000
 pg_user = kong
@@ -73,6 +74,12 @@ docker run -d -p 1337:1337 --name konga pantsel/konga
 8000: 用户访问
 
 1337: konga 地址
+
+
+
+上面 kong的 dns配置是 consul,
+
+如果是 nacos，需要额外安装，参考; https://github.com/nacos-group/nacos-coredns-plugin
 
 
 
