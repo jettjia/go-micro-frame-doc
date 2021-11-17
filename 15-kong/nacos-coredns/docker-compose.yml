@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  coredns:
+    image: jettjia/nacos-coredns:latest
+    container_name: coredns
+    restart: always
+    network_mode: "bridge"
+    expose:
+      - '53'
+      - '53/udp'
+    ports:
+      - "53:53"
+      - "53:53/udp"
+    volumes:
+      - ./conf/Corefile:/etc/coredns/Corefile

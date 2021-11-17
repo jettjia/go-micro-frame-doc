@@ -77,9 +77,11 @@ docker run -d -p 1337:1337 --name konga pantsel/konga
 
 
 
-上面 kong的 dns配置是 consul,
+上面 kong/kong.conf 里的 dns_resolver 配置是 consul,
 
 如果是 nacos，需要额外安装，参考; https://github.com/nacos-group/nacos-coredns-plugin
+
+已经封装在 nacos-coredns模块
 
 
 

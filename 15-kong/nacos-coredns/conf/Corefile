@@ -1,0 +1,9 @@
+. {
+    nacos {
+        upstream /etc/resolv.conf
+        nacos_server 10.4.7.71
+        nacos_server_port 8848
+    }
+    log
+    errors
+}
