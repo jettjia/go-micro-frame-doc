@@ -27,6 +27,12 @@ docker run -d -p 1337:1337 --name konga pantsel/konga
 ```shell
 docker run --network=kong-net --rm pantsel/konga -c prepare -a postgres -u postgresql://konga:konga@kong-database/konga
 
+docker run -d --name kong-database \
+           -p 5432:5432 \
+           -e "POSTGRES_USER=kong" \
+           -e "POSTGRES_DB=kong" \
+           -e "POSTGRES_PASSWORD=kong" \
+           postgres:12
 ```
 
 ```shell
