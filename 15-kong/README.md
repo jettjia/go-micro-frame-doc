@@ -32,7 +32,8 @@ docker run --rm \
 
 # 安装kong
 # 下载参考：https://docs.konghq.com/install/centos/
-curl -Lo kong-2.5.0.amd64.rpm $( rpm --eval "https://download.konghq.com/gateway-2.x-centos-%{centos_ver}/Packages/k/kong-2.5.0.el%{centos_ver}.amd64.rpm")
+$ curl -Lo kong-2.5.0.amd64.rpm $( rpm --eval "https://download.konghq.com/gateway-2.x-centos-%{centos_ver}/Packages/k/kong-2.5.0.el%{centos_ver}.amd64.rpm")
+
 $ sudo yum install kong-2.5.0.amd64.rpm -y
 
 # 编辑kong配置
@@ -75,13 +76,15 @@ docker run -d -p 1337:1337 --name konga pantsel/konga
 
 1337: konga 地址
 
+http://10.4.7.71:1337	jettjia/1234567
+
 
 
 上面 kong/kong.conf 里的 dns_resolver 配置是 consul,
 
 如果是 nacos，需要额外安装，参考; https://github.com/nacos-group/nacos-coredns-plugin
 
-已经封装在 nacos-coredns模块
+此官方暂停维护，有bug。建议还是使用consul
 
 
 

@@ -58,7 +58,11 @@ http://<your-servers-public-ip-or-host>:1337
 
 # Konga 连接 Kong
 
- ![image-20211125170417188](assets/image-20211125170417188.png)
+ ![image-20211126173519157](assets/image-20211126173519157.png)
+
+选择激活
+
+![image-20211126173824759](assets/image-20211126173824759.png)
 
 # Dashboard
 
@@ -78,7 +82,7 @@ http://<your-servers-public-ip-or-host>:1337
 
  ![image-20211125170733832](assets/image-20211125170733832.png)
 
-# 配置路由转发- todo
+# 配置路由转发
 
 ​		service服务是一个抽象服务层，可以用于指向具体物理服务（target），也可以指向upstream用于实现物理服务的负载效果。一个service对于upstream、target都是一对一的关系。
 
@@ -124,7 +128,21 @@ http://<your-servers-public-ip-or-host>:1337
 
 
 
-# 集成consul实现服务发现和负载均衡-todo
+services -> add-service
+
+ <img src="assets/image-20210825112523488.png" alt="image-20210825112523488" style="zoom:50%;" />
+
+给 goods-web增加 routes
+
+ <img src="assets/image-20210825112751114.png" alt="image-20210825112751114" style="zoom:50%;" />
+
+
+
+浏览器访问： 10.4.7.71:8000/g/v1/goods
+
+
+
+# 集成consul实现服务发现和负载均衡
 
  查看info中，是否有成功配置好 dns_server信息；
 
@@ -132,7 +150,7 @@ http://<your-servers-public-ip-or-host>:1337
 
 10.4.7.71:8000/g/v1/goods
 
-# 配置jwt实现登录校验- todo
+# 配置jwt实现登录校验
 
 1) 创建 consumers
 
