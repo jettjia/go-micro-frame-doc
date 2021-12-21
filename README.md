@@ -11,7 +11,7 @@ grpc、proto	【rpc微服务】
 zap 		【日志】
 viper		【配置读取】
 consul 		【服务注册和发现】
-nacos		【配置中心】
+nacos		【配置中心，服务注册和发现】
 grpc-lb 	【负载均衡】
 es		【搜索】
 分布式锁	        【redis实现】
