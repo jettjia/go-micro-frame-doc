@@ -19,6 +19,7 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/golang/glog v1.0.0
 	github.com/golang/protobuf v1.5.2
+	github.com/gomodule/redigo v1.8.3 // indirect
 	github.com/google/uuid v1.3.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
@@ -29,6 +30,8 @@ require (
 	github.com/mattn/go-isatty v0.0.13 // indirect
 	github.com/mbobakov/grpc-consul-resolver v1.4.4
 	github.com/nacos-group/nacos-sdk-go v1.0.8
+	github.com/nitishm/go-rejson v2.0.0+incompatible // indirect
+	github.com/nitishm/go-rejson/v4 v4.0.0 // indirect
 	github.com/olivere/elastic/v7 v7.0.28
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/prometheus/client_golang v1.11.0 // indirect
