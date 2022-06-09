@@ -35,7 +35,7 @@
             if (ws) {
                 return false;
             }
-            ws = new WebSocket("ws://localhost:2303/ws");
+            ws = new WebSocket("ws://localhost:40019/api/businessSysLinkage/v1/rad/ws?centerid=340000001");
             ws.onopen = function(evt) {
                 print("连接websocket");
             }

@@ -30,11 +30,16 @@ docker run --rm \
     -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database" \
     kong kong migrations bootstrap
 
+```
+
+```shell
 # 安装kong
 # 下载参考：https://docs.konghq.com/install/centos/
 $ curl -Lo kong-2.5.0.amd64.rpm $( rpm --eval "https://download.konghq.com/gateway-2.x-centos-%{centos_ver}/Packages/k/kong-2.5.0.el%{centos_ver}.amd64.rpm")
 
-$ sudo yum install kong-2.5.0.amd64.rpm -y
+$ sudo yum install kong-2.5.0.amd64.rpm -y --nogpgcheck
+
+$ rpm -ivh kong-2.5.0.amd64.rpm
 
 # 编辑kong配置
 systemctl stop firewalld
@@ -65,10 +70,37 @@ sudo firewall-cmd --reload
 
 ## 浏览器访问，下面能访问正常就是OK
 http://10.4.7.71:8001
+```
 
+docker安装Kong
+
+```shell
+docker run -d --name kong \
+     --network=kong-net \
+     -e "KONG_DATABASE=postgres" \
+     -e "KONG_PG_HOST=kong-database" \
+     -e "KONG_PG_PASSWORD=kong" \
+     -e "KONG_CASSANDRA_CONTACT_POINTS=kong-database" \
+     -e "KONG_PROXY_ACCESS_LOG=/dev/stdout" \
+     -e "KONG_ADMIN_ACCESS_LOG=/dev/stdout" \
+     -e "KONG_PROXY_ERROR_LOG=/dev/stderr" \
+     -e "KONG_ADMIN_ERROR_LOG=/dev/stderr" \
+     -e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl" \
+     -p 8000:8000 \
+     -p 8443:8443 \
+     -p 8001:8001 \
+     -p 8444:8444 \
+     kong:latest
+```
+
+安装konga
+
+```shell
 # 安装konga， 图形化工具
 docker run -d -p 1337:1337 --name konga pantsel/konga
 ```
+
+
 
 8001: kong的管理端口
 

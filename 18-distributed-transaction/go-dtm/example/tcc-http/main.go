@@ -14,8 +14,9 @@ import (
 const tccBusiAPI = "/api/busi_start"
 const tccBusiPort = 8082
 
-var tccBusi = fmt.Sprintf("http://10.4.7.71:%d%s", tccBusiPort, tccBusiAPI)
+var tccBusi = fmt.Sprintf("http://localhost:%d%s", tccBusiPort, tccBusiAPI)
 
+// 启动服务
 func startSvr() {
 	gin.SetMode(gin.ReleaseMode)
 	app := gin.Default()
@@ -27,8 +28,8 @@ func startSvr() {
 
 func tccFireRequest() string {
 	log.Printf("tcc transaction begin")
-	dtm := "http://10.4.7.71:8080/api/dtmsvr"
-	gid := dtmcli.MustGenGid(dtm)
+	dtm := "http://10.4.7.88:36789/api/dtmsvr" // 安装dtm管理的地址
+	gid := dtmcli.MustGenGid(dtm) //生产全局唯一的 gid
 	// TccGlobalTransaction 开启一个TCC全局事务，第一个参数为dtm的地址，第二个参数是回调函数
 	err := dtmcli.TccGlobalTransaction(dtm, gid, func(tcc *dtmcli.Tcc) (resp *resty.Response, rerr error) {
 		// 调用TransOut分支，三个参数分别为post的body，tryUrl，confirmUrl，cancelUrl
@@ -52,6 +53,7 @@ func tccFireRequest() string {
 	return gid
 }
 
+// gin路由方法，里面有各个阶段的方法触发，模拟分布式的各个调度
 func qsAddRoute(app *gin.Engine) {
 	app.POST(tccBusiAPI+"/TransIn", func(c *gin.Context) {
 		log.Printf("TransIn ok")
