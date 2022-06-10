@@ -1,0 +1,25 @@
+package main
+
+type Config struct {
+	DbSource string
+}
+
+func NewConfig() *Config {
+	return &Config{
+		DbSource: "root:root@tcp(127.0.0.1:3306)/test",
+	}
+}
+
+type DB struct {
+	table string
+}
+
+func NewDB(cfg *Config) *DB {
+	return &DB{
+		table: "test_table",
+	}
+}
+
+func (db *DB) Find() string {
+	return "db info string"
+}
