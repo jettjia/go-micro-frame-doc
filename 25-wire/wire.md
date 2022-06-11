@@ -258,3 +258,35 @@ func New() (*Config, func(), error) {
 
 # wire 工程化实践
 
+## 目录分层
+
+
+
+## internal目录说明
+
+该目录存放所有不对外暴露的代码，通常的业务逻辑都在这下面，使用internal避免错误引用。
+
+### internal/biz
+
+业务逻辑的组装层，类似DDD的 domain 层，data类似DDD的repo,而repo接口在这里定义，使用依赖倒置的原则
+
+### internal/data
+
+业务数据访问，包含 cache、db 等封装，实现了 biz的repo接口。我们可能会把 data与dao混淆在一起，data偏重业务的含义，它所要做的是将领域对象重新拿出来，我们去掉了 DDD 的infra层。
+
+### internal/server
+
+config，db, http, grpc 实例的创建和配置
+
+
+
+
+
+
+
+
+
+
+
+
+
