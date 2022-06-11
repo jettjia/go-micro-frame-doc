@@ -171,9 +171,7 @@ func InitApp() (*FooMessage, error) {
 
 核心语法
 
-```
 wire.Build(config.Provider, wire.Value("demo string1"), wire.Value(config.String2("demo string 2")), NewApp)
-```
 
 ```go
 func InitApp() (*App, error) {
@@ -190,9 +188,71 @@ func InitApp() (*App, error) {
 
 # wire 绑定接口
 
+核心代码：var Provider = wire.NewSet(NewDb, NewDao, wire.Bind(new(IDao), new(*Dao))) 
 
+```go
+// var Provider = wire.NewSet(NewDb)
+
+// 这里我们加入了Dao, 并且绑定了 IDao 和Dao
+// 将 New 方法声明为 Provider,表示New方法可以创建一个被别人依赖的对象
+var Provider = wire.NewSet(NewDb, NewDao, wire.Bind(new(IDao), new(*Dao))) // 这里将接口和实现进行绑定
+
+func NewDb(cfg *config.Config) (db *sql.DB, err error) {
+	db, err = sql.Open("mysql", cfg.Database.Dsn)
+	if err != nil {
+		return nil, err
+	}
+	if err = db.Ping(); err != nil {
+		return nil, err
+	}
+	return db, nil
+}
+```
+
+具体代码参考：05-wire-interface
 
 # wire 清理函数 cleanup
+
+wire.go
+
+```go
+func InitApp() (*App, func(), error) {
+	wire.Build(config.Provider, NewApp)
+	return &App{}, func() {}, nil
+}
+```
+
+```go
+func main() {
+	app, cleanup, err := InitApp()
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer cleanup() // 处理需要关闭的资源
+	fmt.Println("输出数据配置：", app.Config.Database.Dsn)
+}
+```
+
+config.go
+
+```go
+func New() (*Config, func(), error) {
+	fp, err := os.Open("../config/app.json")
+	//if err != nil {} // 这里注释了，交由 cleanup处理
+
+	var cfg Config
+	if err = json.NewDecoder(fp).Decode(&cfg); err != nil {
+		return nil, func() {
+			fp.Close()
+		}, err
+	}
+
+	return &cfg, func() {
+		fp.Close()
+		fmt.Println("app.json 资源句柄成功关闭")
+	}, nil
+}
+```
 
 
 
