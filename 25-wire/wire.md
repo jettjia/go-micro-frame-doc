@@ -147,17 +147,46 @@ CREATE TABLE `order` (
 
 
 
-
+具体代码参考：02-wire-demo
 
 
 
 # wire绑定struct
 
+核心语法 wire.Struct(new(FooMessage), "*)
 
+```go
+func InitApp() (*FooMessage, error) {
+	// 通过 wire.Struct 来指定那些字段要被注入到结构体中
+	// 这里的 Msg、Ber 代表要导入的字段
+	// 如果你要全部导入，可以这样写： wire.Struct(new(FooMessage), "*)
+	wire.Build(ProvideMessage, ProvideBeer, wire.Struct(new(FooMessage), "Msg", "Ber"))
+	return &FooMessage{}, nil
+}
+```
+
+具体代码参考：03-wire-struct
 
 # wire 绑定值
 
+核心语法
 
+```
+wire.Build(config.Provider, wire.Value("demo string1"), wire.Value(config.String2("demo string 2")), NewApp)
+```
+
+```go
+func InitApp() (*App, error) {
+	// 绑定值用 wire.Value 进行绑定
+	// 这里首先绑定了一个 string 类型的值
+	// 然后绑定了 String2 类型的值，因为本例子需要绑定两个 string 类型的值。
+	// 如果都用了 string 那么注入的时候，wire 无法区分具体的 string， 所以另外一个 string 使用自定义string类型
+	wire.Build(config.Provider, wire.Value("demo string1"), wire.Value(config.String2("demo string 2")), NewApp)
+	return &App{}, nil
+}
+```
+
+具体代码参考：04-wire-value
 
 # wire 绑定接口
 
