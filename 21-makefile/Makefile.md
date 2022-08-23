@@ -72,3 +72,59 @@ help:
 - `.PHONY`用来定义伪目标。不创建目标文件，而是去执行这个目标下面的命令。
 
 ------
+
+
+
+# go-makefile
+
+```makefile
+PKG := "github.com/jettjia/example"
+PKG_LIST := $(shell go list ${PKG}/...)
+APP=example
+DOCKER_IMG=xxxxx
+VERSION=1.0.0
+
+.PHONY: tidy
+tidy:
+	$(eval files=$(shell find . -name go.mod))
+	@set -e; \
+	for file in ${files}; do \
+		goModPath=$$(dirname $$file); \
+		cd $$goModPath; \
+		go mod tidy; \
+		cd -; \
+	done
+
+.PHONY: fmt
+fmt:
+	@go fmt ${PKG_LIST}
+
+init: # install golint
+	@go install golang.org/x/lint/golint@latest
+
+lint: ## Lint the files
+	@golint -set_exit_status ${PKG_LIST}
+
+.PHONY: vet
+vet: ## Vet the files
+	@go vet ${PKG_LIST}
+
+.PHONY: test
+test:
+	@go test -cover ./...
+
+race: ## Run tests with data race detector
+	@go test -race ${PKG_LIST}
+
+.PHONY: test-coverage
+test-coverage:
+	@go test ./... -v -coverprofile=report/cover 2>&1 | go-junit-report > report/ut_report.xml
+	@gocov convert report/cover | gocov-xml > report/coverage.xml
+	@gocov convert report/cover.out | gocov-html > report/coverage.html
+
+.PHONY: docker-image
+docker-image:
+	@docker build -t ${DOCKER_IMG}:v1.0.0 .
+
+```
+
